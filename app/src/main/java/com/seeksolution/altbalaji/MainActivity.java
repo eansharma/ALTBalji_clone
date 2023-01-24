@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
            modelArrayList.add(new TrendingModel(ImageUrls[i]));
         }
         TrendingAdapters adapters = new TrendingAdapters(getApplicationContext(),modelArrayList);
+        //This is Layout Manager
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         recyclerView.setAdapter(adapters);
 //        ArrayAdapter<TrendingModel> arrayAdapter = new ArrayAdapter<TrendingModel>(getApplicationContext(),arrayList);
