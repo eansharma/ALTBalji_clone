@@ -52,6 +52,7 @@ public class TrendingAdapters extends RecyclerView.Adapter<TrendingAdapters.MyVi
             }
         },5000);
 
+
     }
     @Override
     public int getItemCount() {
